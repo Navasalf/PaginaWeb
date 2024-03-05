@@ -23,40 +23,40 @@ const Account = () => {
             <div className='boxtwo'>
                 <p className='Titletwo'> Account transaction history</p>
                 <div className='twobox'>
-                    <table>
-                        <tbody> {/* Wrap content in tbody to avoid unnecessary rows */}
-                            <tr>
-                                <th><p className='littleP'>Lottery:</p></th>
-                                <th><p className='littleP'>Your Balance:</p></th>
-                                <th><p className='littleP'>Estimated Prize:</p></th>
-                                <th><p className='littleP'>Status:</p></th>
-                            </tr>
-                            <tr>
-                                <td><p className='littleP'>BTC Fever Lottery #1</p></td>
-                                <td><p className='littleP'>25 Tickets</p></td>
-                                <td><p className='littleP'>$20,000</p></td>
-                                <td><p className='littleP'>Finished</p></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div className='twobox-item'>
+                                <h3>Lottery:</h3> 
+                                <p>BTC Fever Lottery #1</p>
+                    </div>
+                    <div className='twobox-item'>
+                                <h3>Your Balance:</h3>
+                                <p>25 Tickets</p>
+                    </div>
+                    <div className='twobox-item'>
+                                <h3>Estimated Prize:</h3> 
+                                <p>$20,000</p>
+                    </div>
+                    <div className='twobox-item'>
+                                <h3>Status:</h3>
+                                <p className='Parrafoone'>Finished</p>
+                     </div>       
                 </div>
                 <div className='twobox'>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th><p className='littleP'>Lottery:</p></th>
-                                <th><p className='littleP'>Your Balance:</p></th>
-                                <th><p className='littleP'>Estimated Prize:</p></th>
-                                <th><p className='littleP'>Status:</p></th>
-                            </tr>
-                            <tr>
-                                <td><p className='littleP'>BTC Fever Lottery #1</p></td>
-                                <td><p className='littleP'>25 Tickets</p></td>
-                                <td><p className='littleP'>$20,000</p></td>
-                                <td><p className='littleP'>Finished</p></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div className='twobox-item'>
+                                <h3>Lottery:</h3> 
+                                <p>BTC Fever Lottery #1</p>
+                    </div>
+                    <div className='twobox-item'>
+                                <h3>Your Balance:</h3>
+                                <p>25 Tickets</p>
+                    </div>
+                    <div className='twobox-item'>
+                                <h3>Estimated Prize:</h3> 
+                                <p>$20,000</p>
+                    </div>
+                    <div className='twobox-item'>
+                                <h3>Status:</h3>
+                                <p className='ParrafoTwo'>Pending</p>
+                     </div>                   
                 </div>
 
             </div>

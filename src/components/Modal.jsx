@@ -15,7 +15,7 @@ if (!isModalOpen) return null;
                 </EncabezadoModal>
                 <PrimeraParte>
                 <div className='Box'>
-
+                <img className='IconWallet' src='https://btcfever.vercel.app/assets/wallet-abb26d4a.png' alt='Icon wallet'/>
                 </div>
                 <div>
                 <h4>Connect Wallet</h4>
@@ -23,9 +23,9 @@ if (!isModalOpen) return null;
                 </div>
                 </PrimeraParte>
                 <SegundaParte>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div><img className='IconTwo' src='https://btcfever.vercel.app/assets/meta-7e9a7a20.svg' alt='Icon wallet'/></div>
+                <div><img className='IconTwo' src='https://btcfever.vercel.app/assets/trust-b7baaf74.svg' alt='Icon wallet'/></div>
+                <div><img className='IconTwo' src='https://btcfever.vercel.app/assets/wallet-connect-397ab5a2.svg' alt='Icon wallet'/></div>
                 </SegundaParte>
             </ContenedorModal>
        </Overlay>
@@ -119,6 +119,10 @@ h4 {
     margin-bottom: 10px;
     color: yellow;
 }
+.IconWallet {
+    height: 120px;
+}
+
 `;
 
 const SegundaParte = styled.div`
@@ -141,4 +145,11 @@ div {
     }
 }
 
+img {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
 `;
+

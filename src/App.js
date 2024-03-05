@@ -6,6 +6,7 @@ import Account from './pages/Account';
 import AvaliableOptions from './pages/AvaliableOptions';
 import { Navbar } from './components/Navbar';
 import { Modal } from './components/Modal';
+import { Lottery } from './pages/Lottery';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/" element={<Account />} />
           <Route path="/Account" element={<Account />} />
           <Route path="/AvaliableOptions" element={<AvaliableOptions />} />
+          <Route path="/AvaliableOptions/Lottery" element={<Lottery />} /> 
         </Routes>
       </Sidebar>
 
