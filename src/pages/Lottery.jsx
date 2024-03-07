@@ -12,7 +12,7 @@ export function Lottery() {
     const [isModalOpen25, setIsModalOpen25] = useState(false);
     const [isModalOpen50, setIsModalOpen50] = useState(false);
     const [isModalOpen100, setIsModalOpen100] = useState(false);
-    
+
     return (
 
 
@@ -40,9 +40,7 @@ export function Lottery() {
                                         </div>
                                         <div className='bloom bloom1'></div>
                                         <div className='bloom bloom2'></div>
-                                        <div>
-                                            <h3>Hours</h3>
-                                        </div>
+                                        <h3>Hours</h3>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +148,7 @@ export function Lottery() {
                         <button onClick={() => setIsModalOpen100(true)} className='botton-lottery'>Connect Wallet</button>
                         <ModalTickets props={100} isModalOpen={isModalOpen100} closeModal={() => setIsModalOpen100(false)} />
                     </div>
-                    
+
                 </div>
             </div>
         </div>
