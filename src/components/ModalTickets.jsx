@@ -97,7 +97,6 @@ const PrimeraParte = styled.div`
 
 .button-modal {
     margin-top: 16px;
-    margin-right: 20px;
     background-color: #313131;
     font-size: 20px;
     padding: 10px;

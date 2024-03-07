@@ -3,6 +3,7 @@ import { useState } from 'react';
 import '../styles/lottery.css'
 import { NavLink } from 'react-router-dom';
 import { ModalTickets } from '../components/ModalTickets';
+import HoverButton from '../components/HoverButton';
 
 
 export function Lottery() {
@@ -151,6 +152,7 @@ export function Lottery() {
 
                 </div>
             </div>
+           
         </div>
     )
 }
