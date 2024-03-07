@@ -268,3 +268,6 @@ main {
     -moz-transition: ease-out 0.8s;
     transition: ease-out 0.4s;
 }
+
+.botton-lottery:hover {
+    box-shadow: inset 400px 0 0 0 hwb(60 0% 45%);}
