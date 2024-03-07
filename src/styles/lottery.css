@@ -122,7 +122,7 @@ main {
     bottom: 0;
     left: 0;
     border-radius: 50%;
-    background: var(--gray-dark);
+    background: rgb(174, 174, 174, 0,5);
 }
 .front {
     fill: #fff;

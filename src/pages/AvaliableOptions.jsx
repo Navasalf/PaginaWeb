@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import React  from 'react';
+import React from 'react';
 import '../styles/AvaliableOptions.css'
 
 const AvaliableOptions = () => {
@@ -32,7 +32,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>HOURS</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -40,7 +40,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>MINUTES</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -48,11 +48,9 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>SECONDS</p>
                             </div>
-
                         </div>
-                        
-                            <NavLink  to="/AvaliableOptions/Lottery"><div className="divbtn">
-                            <button className='Btn'>Join Now</button></div></NavLink> 
+                        <NavLink to="/AvaliableOptions/Lottery"><div className="divbtn">
+                            <button className='Btn'>Join Now</button></div></NavLink>
                         <p>This is a description or note.</p>
                     </div>
                 </div>
@@ -82,7 +80,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>HOURS</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -90,7 +88,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>MINUTES</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -100,8 +98,8 @@ const AvaliableOptions = () => {
                             </div>
 
                         </div>
-                        <NavLink  to="/AvaliableOptions/Lottery"><div className="divbtn">
-                            <button className='Btn'>Join Now</button></div></NavLink> 
+                        <NavLink to="/AvaliableOptions/Lottery"><div className="divbtn">
+                            <button className='Btn'>Join Now</button></div></NavLink>
                         <p>This is a description or note.</p>
                     </div>
                 </div>
@@ -131,7 +129,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>HOURS</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -139,7 +137,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>MINUTES</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -149,8 +147,8 @@ const AvaliableOptions = () => {
                             </div>
 
                         </div>
-                        <NavLink  to="/AvaliableOptions/Lottery"><div className="divbtn">
-                            <button className='Btn'>Join Now</button></div></NavLink> 
+                        <NavLink to="/AvaliableOptions/Lottery"><div className="divbtn">
+                            <button className='Btn'>Join Now</button></div></NavLink>
                         <p>This is a description or note.</p>
                     </div>
                 </div>
@@ -180,7 +178,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>HOURS</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -188,7 +186,7 @@ const AvaliableOptions = () => {
                                 </div>
                                 <p>MINUTES</p>
                             </div>
-                            <div>:</div>
+                            <div className='space-point'>:</div>
                             <div className='card-option-details-timer-group'>
                                 <div className='card-option-details-timer-group-items'>
                                     <div className='card-option-details-timer-group-items-item'>0</div>
@@ -199,10 +197,10 @@ const AvaliableOptions = () => {
 
                         </div>
                         <div className="divbtn">
-                            <NavLink className={NavLink}  to="/AvaliableOptions/Lottery">
-                            <button className='Btn'>Join Now</button>
-                            </NavLink> 
-                            </div>
+                            <NavLink className={NavLink} to="/AvaliableOptions/Lottery">
+                                <button className='Btn'>Join Now</button>
+                            </NavLink>
+                        </div>
                         <p>This is a description or note.</p>
                     </div>
                 </div>
