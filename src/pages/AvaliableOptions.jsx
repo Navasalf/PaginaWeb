@@ -196,11 +196,10 @@ const AvaliableOptions = () => {
                             </div>
 
                         </div>
-                        <div className="divbtn">
-                            <NavLink className={NavLink} to="/AvaliableOptions/Lottery">
-                                <button className='Btn'>Join Now</button>
-                            </NavLink>
-                        </div>
+                   
+                        <NavLink to="/AvaliableOptions/Lottery"><div className="divbtn">
+                            <button className='Btn'>Join Now</button></div></NavLink>
+      
                         <p>This is a description or note.</p>
                     </div>
                 </div>
