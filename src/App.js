@@ -8,13 +8,11 @@ import { Navbar } from './components/Navbar';
 import { Modal } from './components/Modal';
 import { Lottery } from './pages/Lottery';
 
-
 const App = () => {
   return (
     <BrowserRouter>
     <Navbar/>
       <Sidebar>
-      
         <Routes>
           <Route path="/" element={<Account />} />
           <Route path="/Account" element={<Account />} />
@@ -22,7 +20,6 @@ const App = () => {
           <Route path="/AvaliableOptions/Lottery" element={<Lottery />} /> 
         </Routes>
       </Sidebar>
-
     </BrowserRouter>
    
   );

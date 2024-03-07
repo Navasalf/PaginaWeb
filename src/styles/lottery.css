@@ -1,0 +1,257 @@
+main {
+    padding: 0;
+}
+
+.container-lottery {
+    height: 100%;
+    width: 100%;
+}
+.container-details-lottery {
+    display: flex;
+    flex-direction: column;
+}
+.container-details-lottery-description {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+    .container-details-lottery-description:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(https://media.istockphoto.com/id/1250051189/es/vector/n%C3%BAmeros-de-loter%C3%ADa-volar-loter%C3%ADa-de-dibujo-realista-o-bolas-de-billar-victoria-accidental-de.jpg?s=612x612&w=0&k=20&c=kVxDYCXqZ0GBRmfiW5vj6TXQt0Wqnqc1ONCi9yaqBpw=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0 -200px;
+        opacity: .5;
+    }
+   
+
+@media only screen and (max-width: 600px) {
+.container-details-lottery-description {
+    padding: 40px 10px!important;
+    min-height: 400px;
+    height: 450px!important;
+}}
+
+.container-details-lottery-description-back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black !important;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+
+} 
+.container-details-lottery-description-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+    justify-content: space-around;
+}
+ .container-details-lottery-description-cont-balls {
+    display: flex;
+    gap: 10px;
+}
+.container-details-lottery-description-cont-balls-ball {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.button {
+    background: none;
+    border: none;
+}
+.bloom-container {
+    position: relative;
+    transition: all .2s ease-in-out;
+    border: none;
+    background: none;
+}
+.button-container-main {
+    width: 80px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-content: center;
+    border-right: 3px solid rgba(255,255,255,.511);
+    border-left: 5px solid rgba(128,128,128,.147);
+    transform: rotate(-45deg);
+    transition: all .5s ease-in-out;
+}
+.button-inner {
+    height: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: #64646f80 -10px 5px 10px;
+    transition: all .5s ease-in-out;
+}
+.back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background: var(--gray-dark);
+}
+.front {
+    fill: #fff;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    width: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    aspect-ratio: 1;
+    transform: rotate(45deg);
+    transition: all .2s ease-in;
+}
+.button-glass {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.288) 100%);
+    transform: translateY(-50%) rotate(0);
+    transform-origin: bottom center;
+    transition: all .5s ease-in-out;
+}
+.bloom1 {
+    top: 10px;
+    right: 20px;
+    box-shadow: #ffffff0a 0 0 10px 10px, #ffffff0a 0 0 20px 20px;
+}
+.bloom {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    background: white;
+}
+.bloom2 {
+    bottom: 10px;
+    left: 20px;
+    box-shadow: #ffffff0a 0 0 10px 10px, #ffffff0a 0 0 30px 20px;
+}
+.text-items {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    align-items: center;
+}
+.container-details-lottery-description:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1e22;
+    opacity: .7;
+}
+.container-details-lottery-buy {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 30px;
+}
+.container-details-lottery-buy-options {
+    display: flex;
+    gap: 20px;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+
+
+}
+@media (max-width: 1024px) { 
+    .container-details-lottery-buy-options {
+      overflow-x: scroll;
+   
+    }
+  }
+.container-details-lottery-buy-options::-webkit-scrollbar {
+    background-color: hwb(60 68% 3%);
+    border-radius: 10px;
+    height: 8px;
+    width: 20px; 
+    cursor: pointer;
+}
+.container-details-lottery-buy-options::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 10px;  
+}
+
+.container-details-lottery-buy-options-item {
+    min-width: 180px;
+    width: 15%;
+    height: 300px;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.container-details-lottery-buy-options-item-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+    height: 225px;
+    flex-direction: column;
+    h3 {
+        color: hwb(60 68% 3%);
+    }
+}
+.svg-lottery {
+    fill: hwb(60 68% 3%);
+}
+.box-botton-tickets {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center ;
+}
+.botton-lottery {
+    background-color: #313131;
+    font-size: 20px;
+    padding: 10px;
+    color: hwb(60 68% 3%);
+    border: 2px solid yellow;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 hwb(60 0% 45%);
+    -webkit-transition: ease-out 0.8s;
+    -moz-transition: ease-out 0.8s;
+    transition: ease-out 0.4s;
+}

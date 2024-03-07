@@ -29,7 +29,7 @@ const Sidebar = ({children}) => {
         }
     ]
     return (
-        <div className="container">
+        <div className="container-sidebar">
            <div style={{width: isOpen ? "260px" : "80px"}} className="sidebar">
                <div className="top_section">
                    <h1 style={{display: isOpen ? "block" : "none"}} className="logo">BTCFever</h1>

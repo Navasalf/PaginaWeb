@@ -1,5 +1,6 @@
-.container {
+.container-sidebar {
   display: flex;
+ 
 }
 
 main {
@@ -40,17 +41,20 @@ main {
   padding: 10px 15px;
   gap: 15px;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .link:hover {
   background: rgb(201, 225, 114);
   color: #000;
   transition: all 0.5s;
+  cursor: pointer;
 }
 
 .active {
   background: rgb(201, 225, 114);
   color: #000;
+
 }
 
 .icon,
